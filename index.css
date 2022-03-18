@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Nunito&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* font-family: 'Hind Madurai', sans-serif; */
+body{
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+  
+    font-family: 'Nunito', sans-serif;
+}
+
+footer{
+    color: whitesmoke;
+    font-size: 1.2em;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    opacity: 0;
+}
+
+
+nav{
+    position: fixed;
+    top:100px;
+    left: -50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(0, 217, 255);
+    box-shadow:
+      0 0 10px 5px rgb(15, 217, 253), 
+      0 0 20px 10px rgb(16, 219, 255);
+  }
+
+  nav p:hover{
+      border-radius: 50%;
+    background-color: rgb(38, 222, 255);
+    box-shadow:
+    0 0 16px 8px rgb(45, 223, 255), 
+    0 0 30px 15px rgb(63, 226, 255);
+    cursor: pointer;
+
+  }
+
+  nav a{
+
+    position:fixed;
+
+    transition: 2s;
+    top: 150px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(0, 217, 255);
+    box-shadow:
+      0 0 5px 2px rgb(15, 217, 253), 
+      0 0 10px 5px rgb(16, 219, 255);
+    opacity: 0;
+
+  }
+
+  nav p{
+      width: 100px;
+      height: 100px;
+      font-weight: bold;
+      position: relative;
+      left: -15px;
+    text-align: center;
+    vertical-align: middle;
+      transform: rotate(90deg);
+      font-size: 1.2em;
+  }
+
+  .active-nav{
+    position: fixed;
+    top:110px;
+    left: -40px;
+      width: 80px;
+      height: 80px;
+      z-index: 1;
+  }
+
+  .active-nav a{
+    opacity: 1;
+    padding: 11px;
+    padding-top: 15px;
+    color: black;
+  }
+
+  .active-nav a:hover{
+    background-color: rgb(38, 222, 255);
+    box-shadow:
+    0 0 12px 6px rgb(45, 223, 255), 
+    0 0 20px 10px rgb(63, 226, 255);
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .active-nav p{
+    width: 80px;
+    height: 80px;
+    font-size: 1em; 
+  }
+
+  .nav-a{
+     
+    position: fixed;
+    top:35px;
+    left:10px;
+  }
+  .nav-b{
+    position: fixed;
+    top:70px;
+    left:65px;
+}
+.nav-b i{
+    position: relative;
+    top:-6px;
+    left: -2px;
+}
+.nav-c{
+  
+        position: fixed;
+        top:130px;
+        left:80px;   
+}
+
+.nav-c i{
+    position: relative;
+    left:3px;
+}
+
+.nav-d{
+    position: fixed;
+    top:190px;
+    left:65px; 
+}
+.nav-d i{
+    position: relative;
+    top:10px;
+}
+.nav-e{
+    position: fixed;
+    top:220px;
+    left:10px; 
+
+}
+
+.nav-e i{
+    position: relative;
+    top:-1px;
+}
